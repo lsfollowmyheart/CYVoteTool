@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.jws.soap.SOAPBinding;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -22,7 +21,7 @@ public class UserDaoTest {
     @Test
     public void queryUser(){
         List<User> userList = userDao.queryUser();
-        assertEquals(8, userList.size());
+        assertEquals(6, userList.size());
     }
     @Test
     public void queryUserById(){
