@@ -3,13 +3,24 @@ package api;
 import common.CommonUtil;
 import domain.AddChannelInforRequest;
 import domain.SimpleNormalResponse;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import util.RSAUtil;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import service.ChannelInforService;
 
+
+@RestController
 public class AddChannelInfor {
-    @RequestMapping
+    @Autowired
+    private ChannelInforService channelInforService;
+    private static final Logger LOG = LoggerFactory.getLogger(AddChannelInfor.class);
+    @RequestMapping(value = "/CYVoteServer/addChannel", method = RequestMethod.POST)
     public SimpleNormalResponse addInfor(@RequestBody AddChannelInforRequest request){
+
         String userName = request.getUserName();
         String accessToken = request.getAccessToken();
         SimpleNormalResponse result = new SimpleNormalResponse();
@@ -20,21 +31,8 @@ public class AddChannelInfor {
             return result;
         }
         String infor = CommonUtil.toJsonString(request.getVoteChannelInformation());
-        addInforToDB(infor);
+        String channel = request.getVoteChannelInformation().getChannel();
+        channelInforService.addInforToDB(channel, infor);
         return result;
     }
-
-    /**
-     * 此方法用于添加渠道信息到数据库中
-     * @param infor
-     * @return
-     */
-    private int addInforToDB(String infor){
-        int count = 0;
-        String pubKey = "key";
-        infor = RSAUtil.encryptByPublicKey(infor, pubKey);
-        return count;
-    }
-
-
 }
