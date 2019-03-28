@@ -1,6 +1,7 @@
 package api;
 
 import common.CommonUtil;
+import common.Constants;
 import domain.AddChannelInforRequest;
 import domain.SimpleNormalResponse;
 import org.slf4j.Logger;
@@ -17,22 +18,30 @@ import service.ChannelInforService;
 public class AddChannelInfor {
     @Autowired
     private ChannelInforService channelInforService;
-    private static final Logger LOG = LoggerFactory.getLogger(AddChannelInfor.class);
-    @RequestMapping(value = "/CYVoteServer/addChannel", method = RequestMethod.POST)
-    public SimpleNormalResponse addInfor(@RequestBody AddChannelInforRequest request){
+    private static final Logger log = LoggerFactory.getLogger(AddChannelInfor.class);
 
+    @RequestMapping(value = "/CYVoteServer/addChannel", method = RequestMethod.POST)
+    public SimpleNormalResponse addInfo(@RequestBody AddChannelInforRequest request) {
+        log.info("Coming addInfo");
         String userName = request.getUserName();
         String accessToken = request.getAccessToken();
         SimpleNormalResponse result = new SimpleNormalResponse();
-        if(!CommonUtil.checkAT(userName, accessToken))
-        {
-            result.setReturnCode("4004");
+        if (!CommonUtil.checkAT(userName, accessToken)) {
+            result.setReturnCode(Constants.RETURNCODE_ILLEGAL_TOKEN);
             result.setReturnDesc("Illegal token!!!");
             return result;
         }
         String infor = CommonUtil.toJsonString(request.getVoteChannelInformation());
         String channel = request.getVoteChannelInformation().getChannel();
-        channelInforService.addInforToDB(channel, infor);
+        int count = channelInforService.addInforToDB(channel, infor);
+        if (0 == count) {
+            result.setReturnCode(Constants.RETURNCODE_INNER_ERROR);
+            result.setReturnDesc("Errro while add channel to DB");
+        } else {
+            result.setReturnCode(Constants.RETURNCODE_SUCCESS);
+            result.setReturnDesc("Success");
+        }
+        log.info("end of addinfo");
         return result;
     }
 }

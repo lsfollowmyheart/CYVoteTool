@@ -1,5 +1,7 @@
 package domain;
 
+import common.CommonUtil;
+
 public class SimpleNormalResponse {
     String returnCode;
     String returnDesc;
@@ -18,5 +20,13 @@ public class SimpleNormalResponse {
 
     public void setReturnDesc(String returnDesc) {
         this.returnDesc = returnDesc;
+    }
+
+    @Override
+    public String toString(){
+        SimpleNormalResponse response = new SimpleNormalResponse();
+        response.setReturnDesc(returnDesc);
+        response.setReturnCode(returnCode);
+        return CommonUtil.toJsonString(response);
     }
 }
