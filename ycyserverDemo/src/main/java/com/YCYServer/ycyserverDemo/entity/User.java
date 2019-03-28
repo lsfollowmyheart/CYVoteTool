@@ -29,6 +29,12 @@ public class User {
         this.password = password;
     }
 
-    public String toString() {return id + " " + username;}
-
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }

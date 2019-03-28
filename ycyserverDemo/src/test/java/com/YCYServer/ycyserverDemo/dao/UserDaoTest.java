@@ -21,7 +21,7 @@ public class UserDaoTest {
     @Test
     public void queryUser(){
         List<User> userList = userDao.queryUser();
-        assertEquals(6, userList.size());
+        assertEquals(8, userList.size());
     }
     @Test
     public void queryUserById(){
@@ -41,7 +41,7 @@ public class UserDaoTest {
     @Test
     public void updateUser(){
         User user = new User();
-        user.setId(7);
+        user.setId(11);
         user.setUsername("Ron");
         user.setPassword("1234");
         int num = userDao.updateUser(user);
@@ -49,7 +49,7 @@ public class UserDaoTest {
     }
     @Test
     public void deleteUser(){
-        int num = userDao.deleteUser(7);
+        int num = userDao.deleteUser(11);
         assertEquals(1, num);
     }
 

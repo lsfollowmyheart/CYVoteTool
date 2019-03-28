@@ -15,7 +15,7 @@ public class GlobalExceptionHandler {
     private Map<String, Object> exceptionHandler(HttpServletRequest request, RuntimeException e) {
         Map<String, Object> modelMap = new HashMap<>();
         modelMap.put("success", false);
-        modelMap.put("errMsg", "RuntimeException " + e.getMessage());
+        modelMap.put("errMsg", "Exception Handler: RuntimeException " + e.getMessage());
         return modelMap;
     }
     private Map<String, Object> exceptionHandler(HttpServletRequest request, ArithmeticException e) {
