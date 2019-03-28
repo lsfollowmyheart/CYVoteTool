@@ -38,4 +38,13 @@
         DELETE FROM `test`.`user`
         WHERE id = #{id};
     </delete>
+
+    <select id="login" resultType="com.YCYServer.ycyserverDemo.entity.User">
+        SELECT `user`.`id`,
+        `user`.`username`,
+        `user`.`password`
+        FROM `test`.`user`
+        WHERE `user`.`username` = #{username}
+        AND `user`.`password` = #{password};
+    </select>
 </mapper>

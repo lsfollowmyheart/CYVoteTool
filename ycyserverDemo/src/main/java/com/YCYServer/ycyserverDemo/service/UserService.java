@@ -10,4 +10,5 @@ public interface UserService {
     boolean addUser(User user);
     boolean modifyUser(User user);
     boolean deleteUser(int id);
+    boolean login(User user);
 }
