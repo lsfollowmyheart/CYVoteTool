@@ -298,30 +298,46 @@ public class RSAUtil {
          * @return
          * @throws Exception
          */
-        public static String encryptByPublicKey(String data, String publicKey) throws Exception {
-            byte[] encryptDate = data.getBytes("UTF-8");
-            Cipher cipher = Cipher.getInstance("RSA");
-            cipher.init(Cipher.ENCRYPT_MODE, getPublicKey(publicKey));
-            int inputLen = encryptDate.length;
-            ByteArrayOutputStream out = new ByteArrayOutputStream();
-            int offSet = 0;
-            byte[] cache;
-            int i = 0;
-            // 对数据分段加密
-            while (inputLen - offSet > 0) {
-                if (inputLen - offSet > MAX_ENCRYPT_BLOCK) {
-                    cache = cipher.doFinal(encryptDate, offSet, MAX_ENCRYPT_BLOCK);
-                } else {
-                    cache = cipher.doFinal(encryptDate, offSet, inputLen - offSet);
+        public static String encryptByPublicKey(String data, String publicKey)  {
+            byte[] encryptDate = new byte[0];
+            Cipher cipher = null;
+            try {
+                encryptDate = data.getBytes("UTF-8");
+                cipher = Cipher.getInstance("RSA");
+                cipher.init(Cipher.ENCRYPT_MODE, getPublicKey(publicKey));
+                int inputLen = encryptDate.length;
+                ByteArrayOutputStream out = new ByteArrayOutputStream();
+                int offSet = 0;
+                byte[] cache;
+                int i = 0;
+                // 对数据分段加密
+                while (inputLen - offSet > 0) {
+                    if (inputLen - offSet > MAX_ENCRYPT_BLOCK) {
+                        cache = cipher.doFinal(encryptDate, offSet, MAX_ENCRYPT_BLOCK);
+                    } else {
+                        cache = cipher.doFinal(encryptDate, offSet, inputLen - offSet);
+                    }
+                    out.write(cache, 0, cache.length);
+                    i++;
+                    offSet = i * MAX_ENCRYPT_BLOCK;
                 }
-                out.write(cache, 0, cache.length);
-                i++;
-                offSet = i * MAX_ENCRYPT_BLOCK;
+                byte[] encryptedData = out.toByteArray();
+                out.close();
+                return Base64.encode(encryptedData);
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+                return null;
             }
-            byte[] encryptedData = out.toByteArray();
-            out.close();
+            catch (NoSuchAlgorithmException e) {
+                return null;
+            } catch (NoSuchPaddingException e) {
+                return null;
+            }
+            catch (Exception e) {
+                return null;
+            }
 
-            return Base64.encode(encryptedData);
+
         }
 
         /**
