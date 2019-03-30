@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.YCYServer.ycyserverDemo.dao.UserDao">
+    <select id="queryUser" resultType="com.YCYServer.ycyserverDemo.entity.User">
+        SELECT `user`.`id`,
+        `user`.`username`,
+        `user`.`password`
+        FROM `test`.`user`;
+    </select>
+    <select id="queryUserById" resultType="com.YCYServer.ycyserverDemo.entity.User">
+        SELECT `user`.`id`,
+        `user`.`username`,
+        `user`.`password`
+        FROM `test`.`user`
+        WHERE `user`.`id` = #{id};
+    </select>
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id" keyColumn="id"
+            parameterType="com.YCYServer.ycyserverDemo.entity.User">
+        INSERT INTO `test`.`user`
+        (`username`,
+        `password`)
+        VALUES
+        (#{username},
+        #{password});
+    </insert>
+    <update id="updateUser" parameterType="com.YCYServer.ycyserverDemo.entity.User">
+        UPDATE `test`.`user`
+        <set>
+            <if test="username != null">username=#{username}, </if>
+            <if test="password != null">password=#{password}</if>
+        </set>
+        WHERE `id` = #{id};
+    </update>
+    <delete id="deleteUser">
+        DELETE FROM `test`.`user`
+        WHERE id = #{id};
+    </delete>
+
+    <select id="login" resultType="com.YCYServer.ycyserverDemo.entity.User">
+        SELECT `user`.`id`,
+        `user`.`username`,
+        `user`.`password`
+        FROM `test`.`user`
+        WHERE `user`.`username` = #{username}
+        AND `user`.`password` = #{password};
+    </select>
+</mapper>
