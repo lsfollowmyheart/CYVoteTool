@@ -20,7 +20,7 @@ public class AddChannelInfor {
     private ChannelInforService channelInforService;
     private static final Logger log = LoggerFactory.getLogger(AddChannelInfor.class);
 
-    @RequestMapping(value = "/CYVoteServer/addChannel", method = RequestMethod.POST)
+    @RequestMapping(value = "/addChannel", method = RequestMethod.POST)
     public SimpleNormalResponse addInfo(@RequestBody AddChannelInforRequest request) {
         log.info("Coming addInfo");
         String userName = request.getUserName();

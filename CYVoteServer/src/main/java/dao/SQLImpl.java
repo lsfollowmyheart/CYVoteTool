@@ -10,9 +10,9 @@ import java.util.List;
 
 @Mapper
 public interface SQLImpl {
-    @Select("Select * from t_channelinfor")
+    @Select("Select * from t_channelInfor")
     List<ChannelInfor> getChannelInfor();
 
-    @Insert("Insert into t_channelinfor values(#{channel}, #{infor})")
+    @Insert("Insert into t_channelInfor values(#{channel}, #{infor})")
     int setChannelInfor(@Param("channel") String channel, @Param("infor") String infor);
 }

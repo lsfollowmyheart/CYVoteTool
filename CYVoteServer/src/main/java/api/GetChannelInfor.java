@@ -16,7 +16,7 @@ public class GetChannelInfor {
     private ChannelInforService channelInforService;
     private static final Logger log = LoggerFactory.getLogger(GetChannelInfor.class);
 
-    @RequestMapping(value = "/CYVoteServer/getChannel", method = RequestMethod.GET)
+    @RequestMapping(value = "/getChannel", method = RequestMethod.GET)
     public GetChannelResponse getChannelInfor(){
         log.info("Come in getChannelInfor");
         GetChannelResponse infor = new GetChannelResponse();

@@ -2,51 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab19dd5-269c-4042-bf5e-e414bfbf4839" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/SpringBootStartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/AddChannelInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/AddChannelInfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/GetChannelInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/GetChannelInfor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/StartMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/StartMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/HelloYCY.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/YcyserverDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/config/dao/DataSourceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/config/dao/SessionFactoryConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/config/service/TransactionManagementConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/handler/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/YCYServer/ycyserverDemo/YcyserverDemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/YCYServer/ycyserverDemo/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/YCYServer/ycyserverDemo/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/SQLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/api/AddChannelInfor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/AddChannelInfor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/api/GetChannelInfor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/GetChannelInfor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/api/StartMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/StartMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/CommonUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/SQLImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/SQLImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/domain/ChannelInfor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/domain/ChannelInfor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/AddChannelInforRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/AddChannelInforRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/GetChannelResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/GetChannelResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/SimpleNormalResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/SimpleNormalResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/VoteChannelInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/VoteChannelInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ChannelInforService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ChannelInforService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Base64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Base64.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/RSAUtil$KeyInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/RSAUtil$KeyInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/RSAUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/RSAUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ycytool-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/impl/UserServiceImplTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,29 +32,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            <state relative-caret-position="515">
+              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CYVoteServer.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/api/GetChannelInfor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/api/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1267">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/ChannelInforService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/StartMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="75">
+              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,10 +109,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/api/hello.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/SQLImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="199">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/domain/ChannelInfor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/api/AddChannelInfor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -156,12 +187,9 @@
         <option value="$PROJECT_DIR$/src/main/java/common/CommonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/domain/ChannelInfor.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/GetChannelResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/SQLImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/VoteChannelInformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/ChannelInforService.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/GetChannelInfor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/AddChannelInfor.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/SimpleNormalResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/YCYServer/ycyserverDemo/web/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/domain/User.java" />
@@ -170,11 +198,14 @@
         <option value="$PROJECT_DIR$/src/main/java/common/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/SpringBootStartApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$USER_HOME$/.m2/settings.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/api/StartMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/api/StartMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/AddChannelInfor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/GetChannelInfor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/SQLImpl.java" />
       </list>
     </option>
   </component>
@@ -256,13 +287,15 @@
               <item name="CYVoteServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CYVoteServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="CYVoteServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.run">
+  <component name="RunManager" selected="Maven.install">
     <configuration name="StartMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.api.StartMain" />
       <module name="ycytool" />
@@ -447,8 +480,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.ycytool [clean]" />
         <item itemvalue="Maven.ycytool [install]" />
+        <item itemvalue="Maven.ycytool [clean]" />
         <item itemvalue="Application.StartMain (1)" />
       </list>
     </recent_temporary>
@@ -479,7 +512,7 @@
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26055834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26055834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -488,7 +521,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26027396" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44333747" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,7 +534,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.269864" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.19112384" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -620,15 +653,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/ChannelInforService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        <state relative-caret-position="184">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#1426#1450#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,16 +698,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.4.RELEASE/spring-boot-1.4.4.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/YcyserverDemoApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/SQLImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/impl/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -709,23 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/GetChannelInfor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/domain/ChannelInfor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-292">
@@ -741,13 +744,6 @@
             <element signature="e#717#718#0" expanded="true" />
             <element signature="e#759#760#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -771,6 +767,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/StartMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/SpringBootStartApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -781,10 +803,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="421" selection-start-line="421" selection-end-line="421" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/AddChannelInfor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="242">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/GetChannelInfor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -794,26 +840,44 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/StartMain.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/security/AccessController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="152">
+          <caret line="651" column="8" selection-start-line="651" selection-start-column="8" selection-end-line="651" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/domain/ChannelInfor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/SQLImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        <state relative-caret-position="-1267">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

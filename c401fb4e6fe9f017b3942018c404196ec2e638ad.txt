@@ -1,0 +1,5 @@
+create table t_channelInfor(
+    id int primary key auto_increment,#id 整形 主键 自增长
+     channel varchar(64),#渠道名称
+     infor varchar(2048)#渠道信息
+ );
