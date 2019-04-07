@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = "*")
 @MapperScan(basePackages = "dao")
-public class StartMain {
-    public static void main(String[] args)
-    {
+public class StartMain  {
+
+    public static void main(String[] args) {
         SpringApplication.run(StartMain.class, args);
     }
 }
